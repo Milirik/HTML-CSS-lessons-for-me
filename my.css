@@ -1,0 +1,27 @@
+
+a{
+	color: green;
+}
+::selection{
+	color: red;
+}
+a:visited{
+	color: red;
+}
+
+
+p:first-letter{
+	font-size: 30px;
+}
+p:first-line{
+	color: red;
+}
+
+.test:before{
+	content: "Gay1"
+}
+
+
+
+
+:focus{};

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang='ru'>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<h1>Табличная верстка</h1>
+	<table>
+		<caption>Название таблицы</caption>
+		<colgroup>
+			<col> 
+			<col> 
+			<col style="background: red;"> 
+		</colgroup>
+		<tr style="background: gray;">
+			<th>Кол-во дз</th>
+			<th>Оценка</th>
+			<th>Да\Нет</th>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>4</td>
+			<td>Да</td>
+		</tr>
+		<tr>
+			<td colspan="2">none</td>
+			<!-- <td>5</td> -->
+			<td rowspan="2">Нет</td>
+		</tr>
+		<tr>
+			<td>15</td>
+			<td>3</td>
+			<!-- <td>Да</td> -->
+		</tr>
+		<tr>
+			<td>10</td>
+			<td>3</td>
+			<td>Да</td>
+		</tr>
+	</table>
+</body>
+</html>

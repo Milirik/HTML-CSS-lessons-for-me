@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Первая страница</title>
+</head>
+<body>
+	<article>
+		<!-- Контент сайта -->
+		<!--  contenteditable - разрешить редактирование текста-->
+		<h2 contenteditable="true">Заголовок</h1> 
+		Новый артикль
+		<p><a href="image/xxx.jpg" accesskey="a">Горячая клавиша а
+    для открытия ссылки</a></p>
+    <!-- alt + a -->
+	</article>
+
+	<section>
+		<div contextmenu="exm">Для него я создал меню</div>
+		<menu type="context" id="exm">
+		    <li>Вырезать</li>
+		    <li>Копировать</li>
+		    <li>Вставить</li>
+		    <li>Редактировать</li>
+		    <li>Выравнивание</li>
+	    </menu>
+		Блоки сайта которые нельзя выдрать
+	</section>
+
+	<nav>
+		<p><span draggable="true"><strong>Могу перетаскивать</strong></span></p>
+				Навигационное меню
+	</nav>
+
+	<header>
+		Глава в section или div или article
+	</header>
+
+	<main>
+		Весь сайт (для того чтобы не было проблем с адаптивностью)
+	</main>
+
+	<footer> 
+		повдвал сайта
+	</footer>
+
+	<ul>
+		<ol>1</ol>
+		<ol>2</ol>
+	</ul>
+	<p>параграф</p>
+
+	<table hidden="hidden"> 
+		<!-- hidden для table не работает -->
+		<span hidden="hidden">Вывод информации</span>
+	</table>
+
+	<div>
+		Замена всех article, header, footer, article, nav
+	</div>
+	<p title="А вот и я!">Пример всплывающей подсказки</p>
+	<!-- spellcheck  Указывает браузеру проверять или нет правописание и грамматику в тексте. Хотя атрибут можно устанавливать практически для всех элементов, результат будет заметен только для полей форм (<input>, <textarea>), а также редактируемых элементов (у них установлен атрибут contenteditable).-->
+
+<!-- dropzone="copy | link | move" Определяет, что делать с перетаскиваемыми пользователем данными — скопировать их, перетащить или связать — в момент, когда данные бросаются на элемент.-->
+</body>
+</html>

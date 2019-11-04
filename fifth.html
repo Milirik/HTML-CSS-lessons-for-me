@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web forms</title>
+</head>
+<body>
+	<form action="/" method="">
+		<input type="text" name="namePerson" maxlength="12" value="Name">
+		<input type="text" name="femalePerson" maxlength="12" placeholder="Female">
+		<br>
+		<!-- disabled нельзя использовать -->
+		<input type="password" name="pass" maxlength="12" disabled="">
+		<br>
+		<input type="reset" name="reset" maxlength="12" placeholder="Введите пароль">
+		<br>
+		<input type="submit" name="go" maxlength="12" value="Go">
+		<br>
+		<!-- on or off -->
+		<label for='ap'>Яблоко</label> <input id='ap' type="checkbox" name="ch1" value="Hey1">
+		<label for='gr'>Груша</label> <input id='gr' type="checkbox" name="ch1" value="Hey2">
+		<label for='vi'>Вишня</label> <input id='vi' type="checkbox" name="ch1" value="Hey3">
+		<label for='ba'>Банан</label> <input id='ba' type="checkbox" name="ch2" value="none">
+		<br>
+		<textarea name="textarea" cols="10" rows="3" >Okey</textarea>
+		<br>
+		<input type="radio" name="r1">
+		<input type="radio" name="r1">
+		<input type="radio" name="r1">
+		<br>
+		<button type="submit">Кнопка</button>
+		<br>
+		<select name="select" size="3" multiple="можем выбрать несколько вариантов">
+			<option>ok</option>	
+			<option selected>this</option>
+			<option value="Отправится это сообщение а не one">one</option>
+			<option>good</option>		
+		</select>
+	</form>
+</body>
+</html>
